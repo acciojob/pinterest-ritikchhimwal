@@ -1,1 +1,55 @@
-/*  your css code here. If applicable */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .hero {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      height: 90vh;
+      padding: 50px;
+    }
+
+    .hero img {
+      width: 70%;
+      height: 50%;
+      object-fit: cover;
+    }
+
+    .hero-content {
+      width: 35%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+		font-size: 6px;
+    }
+
+    .hero-content h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    .hero-content p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .hero-content a {
+      padding: 10px 20px;
+      background-color: #ff4d4d;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.1em;
+    }
+
+    .hero-content a:hover {
+      background-color: #e04343;
+    }
